@@ -2,10 +2,8 @@ import Header from "./features/Header";
 import Pokemon from "./features/pokemon/pokemonView";
 
 const Test = () => {
-  console.log("RELEASE LCOAL QUERY");
-  return <></>;
+  return <h1>Hello world</h1>;
 };
-
 const App = () => {
   return (
     <div className="App">
@@ -16,6 +14,3 @@ const App = () => {
 };
 
 export default App;
-function useQuery(RELEASE: any, arg1: { fetchPolicy: string }): { data: any } {
-  throw new Error("Function not implemented.");
-}
